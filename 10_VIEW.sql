@@ -16,7 +16,6 @@ ON co.Code = ci.CountryCode;
 
 SELECT * FROM country_view;
 
-
 -- 뷰의 목록 조회해보기 
 SHOW FULL TABLES;
 SHOW FULL TABLES WHERE Table_type = 'VIEW';
